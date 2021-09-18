@@ -1,10 +1,12 @@
+import React from "react";
 
+import { Home } from "./pages";
 
 function App() {
   return (
-    <div >
-      Hello world !
-    </div>
+    <React.Fragment>
+      <Home />
+    </React.Fragment>
   );
 }
 
