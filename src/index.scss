@@ -8,6 +8,9 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+html {
+  font-size: 62.5%;
+}
 body {
   margin: 0;
   font-family: "Roboto" sans-serif;
@@ -20,6 +23,6 @@ code {
     monospace;
 }
 ///variables
-:root{
-  --main-color: #0b0b0b
+:root {
+  --main-color: #0b0b0b;
 }

@@ -1,3 +1,71 @@
-.nav{
-    color: white;
+.main-container {
+  color: white;
+  font-size: 1.5rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  background: linear-gradient(to top, transparent 0%, rgba(0, 0, 0, 0.5) 50%);
+  &.scrolled {
+    background-color: var(--main-color);
+  }
+  .container {
+    padding: 0 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 7rem;
+    .left {
+      display: flex;
+      align-items: center;
+      img {
+        height: 3rem;
+        margin-right: 3rem;
+      }
+      .nav-link {
+        text-decoration: none;
+        color: white;
+        margin-right: 3rem;
+      }
+    }
+    .right {
+      display: flex;
+      align-items: center;
+      .icons {
+        margin: 0 1.5rem;
+        cursor: pointer;
+      }
+      img {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 5px;
+        object-fit: cover;
+        cursor: pointer;
+      }
+      .profile {
+        .options {
+          display: none;
+          background-color: var(--main-color);
+          border-radius: 10px;
+          .profile-link {
+            text-decoration: none;
+            color: white;
+            padding: 1rem;
+            cursor: pointer;
+          }
+        }
+        &:hover {
+          .options {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            .profile-link {
+              text-decoration: none;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
 }
