@@ -2,6 +2,25 @@
   height: 90vh;
   position: relative;
   font-size: 2rem;
+  .category {
+    position: absolute;
+    top: 12rem;
+    left: 5rem;
+    font-size: 3rem;
+    font-size: 900;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    select {
+      cursor: pointer;
+      background-color: var(--main-color);
+      border: 1px white solid;
+      color: white;
+      margin-left: 2rem;
+      padding: 0.5wrem;
+    }
+  }
   img {
     height: 100%;
     object-fit: cover;
@@ -25,7 +44,6 @@
       button {
         padding: 1rem 2rem;
         border: none;
-        border-radius: 1rem;
         display: flex;
         align-items: center;
         justify-content: center;

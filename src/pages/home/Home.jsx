@@ -10,7 +10,7 @@ const Home = () => {
     <>
       <main className="home">
         <NavBar />
-        <Featured />
+        <Featured type="movie" />
       </main>
     </>
   );
