@@ -7,7 +7,7 @@
   cursor: pointer;
   color: white;
 
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   &:hover {
     width: 28.5rem;
     height: 28rem;
@@ -34,5 +34,42 @@
     left: 0;
     width: 100%;
     height: 14rem;
+  }
+  .item-info {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+  .icons {
+    display: flex;
+    margin-bottom: 1rem;
+    .icon {
+      border: 2px solid white;
+      padding: 0.5rem;
+      border-radius: 50%;
+      margin-right: 1rem;
+      font-size: 3rem;
+    }
+  }
+  .item-info-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: grey;
+  }
+  .limit {
+    border: 0.1rem solid grey;
+    padding: 0.1rem 0.3rem;
+    margin: 0 1rem;
+  }
+  .desc {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+  .genre{
+    font-size: 1.4rem;
+    color: lightgray;
   }
 }

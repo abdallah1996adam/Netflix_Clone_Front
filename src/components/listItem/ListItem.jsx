@@ -30,10 +30,10 @@ const ListItem = ({ index }) => {
             style={{ visibility: isHovred ? "visible" : "hidden" }}
           >
             <div className="icons">
-              <PlayArrow />
-              <Add />
-              <ThumbUpAltOutlined />
-              <ThumbDownOutlined />
+              <PlayArrow className="icon" />
+              <Add className="icon" />
+              <ThumbUpAltOutlined className="icon" />
+              <ThumbDownOutlined className="icon" />
             </div>
             <div className="item-info-top">
               <span>1hour 14 mins</span>
